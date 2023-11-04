@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="weatherapp.css">
+	<title>Weather application</title>
+</head>
+<body>
+	
+	
+	<div class="container">
+		<div class="weather-app">
+			<h2>WEATHER FORCAST</h2>
+			<br/>
+			<div>
+				<label>Enter a city name:</label>
+				<input type="text" id="cityname" required>
+				<button type="button" onclick="fetchData()">FETCH</button>
+			</div>
+			<br/>
+			<div>
+				<span><b> CITY:</b> <span id="city"></span></span> <br/>
+				<span><b> Description:</b> <span id="desc"></span></span> <br/>
+				<span><b> Wind Speed:</b> <span id="windspeed"></span></span> <br/>
+				<span><b> Temperature:</b> <span id="temp"></span>deg/cel</span> <br/>
+				<span><b> Humidity:</b> <span id="hum"></span>deg/cel</span> <br/>
+			</div>
+
+			
+		</div>
+		<!-- <div class="icon">
+		<img src="https://thumbs.dreamstime.com/b/weather-color-icons-set-collection-modern-flat-symbols-outline-meteorology-shapes-long-banner-sun-rain-moon-cloud-cold-snow-217129936.jpg" height="130px" width="550px" align="center" >
+	</div -->>
+
+	</div>
+	<script src="weatherapp.js"></script>
+
+</body>
+</html>
